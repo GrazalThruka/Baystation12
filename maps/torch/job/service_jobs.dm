@@ -9,6 +9,10 @@
 	economic_power = 5
 	minimal_player_age = 0
 	supervisors = "the Executive Officer"
+	alt_titles = list(
+		"Celebrant",
+		"Religious Advisor",
+		)
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/service/chaplain
 	allowed_branches = list(
 		/datum/mil_branch/civilian,
@@ -51,7 +55,7 @@
 
 	access = list(access_maint_tunnels, access_emergency_storage, access_janitor, access_solgov_crew)
 	minimal_access = list()
-	
+
 /datum/job/chef
 	title = "Cook"
 	department = "Service"
@@ -87,6 +91,10 @@
 	department = "Service"
 	department_flag = SRV
 	supervisors = "the Executive Officer and the Corporate Liaison"
+	alt_titles = list(
+		"Barista",
+		"Mixologist",
+		)
 	minimum_character_age = list(SPECIES_HUMAN = 18)
 	ideal_character_age = 30
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/service/bartender
