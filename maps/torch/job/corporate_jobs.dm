@@ -59,9 +59,11 @@
 	                    SKILL_WEAPONS     = SKILL_EXPERT,
 	                    SKILL_FORENSICS   = SKILL_EXPERT)
 	alt_titles = list(
-		"Union Enforcer",
-		"Loss Prevention Associate",
-		"Asset Protection Agent"
+		"Union Enforcer" = /decl/hierarchy/outfit/job/torch/passenger/corporate_bodyguard/union,
+		"Executive Assistant",
+		"Asset Protection Agent",
+		"Notary",
+		"Secretary",
 	)
 	skill_points = 20
 	access = list(access_liaison, access_bridge, access_solgov_crew,

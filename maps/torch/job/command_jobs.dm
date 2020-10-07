@@ -289,6 +289,9 @@
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the Sol Central Government and the SCG Charter"
+	alt_titles = list(
+		"SCG Ambassador",
+		)
 	selection_color = "#2f2f7f"
 	economic_power = 15
 	minimal_player_age = 0
